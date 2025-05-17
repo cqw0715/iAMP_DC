@@ -17,10 +17,10 @@
 
 二、Python环境管理
 1. 虚拟环境工具选择
-| 工具       | 适用场景                  | 安装命令                          |
-|------------|-------------------------|----------------------------------|
-| Miniconda  | 轻量级环境管理           | `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh` |
-| virtualenv | 纯Python环境隔离         | `pip install virtualenv`         |
+工具  | 适用场景 | 安装命令   
+---|---|---|---
+Miniconda | 轻量级环境管理 | `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`  
+virtualenv | 纯Python环境隔离 | `pip install virtualenv`  
 
 2. 创建虚拟环境
 ```bash
