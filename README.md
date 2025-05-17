@@ -38,8 +38,8 @@ pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
 三、GPU加速库安装
 1. CUDA Toolkit安装
 
-框架版本 ：TensorFlow 2.10；推荐CUDA版本：11.2 ；验证命令：`nvcc --version`
-框架版本 ：PyTorch 2.0；推荐CUDA版本：11.8 ；验证命令：`nvidia-smi`
+框架版本 ：TensorFlow 2.10；推荐CUDA版本：11.2 ；|
+框架版本 ：PyTorch 2.0；推荐CUDA版本：11.8 ；
 
 通过官方仓库安装：
 ```bash
