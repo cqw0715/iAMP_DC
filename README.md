@@ -16,20 +16,14 @@
 ---
 
 二、Python环境管理
-1. 虚拟环境工具选择
-工具  | 适用场景 | 安装命令   
----|---|---|---
-Miniconda | 轻量级环境管理 | `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`  
-virtualenv | 纯Python环境隔离 | `pip install virtualenv`  
-
-2. 创建虚拟环境
+1. 创建虚拟环境
 ```bash
 # 创建Python3.9环境
 conda create -n dl_env python=3.9  
 conda activate dl_env
 ```
 
-3. 配置国内镜像源
+2. 配置国内镜像源
 ```bash
 # Conda清华源配置
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
